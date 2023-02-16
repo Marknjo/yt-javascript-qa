@@ -1,5 +1,6 @@
 let domReady = (cb) => {
-  document.readyState === "interactive" || document.readyState === "complete"
+  document.readyState === "interactive" ||
+  document.readyState === "complete"
     ? cb()
     : document.addEventListener("DOMContentLoaded", cb);
 };
