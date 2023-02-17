@@ -1,9 +1,6 @@
 // JsQuiz#13
 
-const a = () => {
-  return [1, 2];
-};
+let a = [1, 2, 3];
+let b = [1, 2, 3];
 
-const [b, c] = a();
-
-console.log(b, c);
+console.log(a == b);

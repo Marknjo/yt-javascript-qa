@@ -1,8 +1,9 @@
 // JsQuiz#15
 
-const a = [1, 2, 3];
-const b = [...a];
-const c = a;
+let num = 10;
 
-console.log(a === b);
-console.log(a === c);
+if (num === "10") {
+  console.log("Equal");
+} else {
+  console.log("Not Equal");
+}

@@ -1,9 +1,7 @@
 // JsQuiz#16
 
-let num = 10;
+const a = [1, 2, 3];
 
-if (num === "10") {
-  console.log("Equal");
-} else {
-  console.log("Not Equal");
-}
+const b = a.push(4);
+
+console.log(a, b);

@@ -1,6 +1,6 @@
 // JsQuiz#17
 
-let a = [1, 2, 3];
-let b = [1, 2, 3];
+let a = 10;
+let b = ++a + a++ + ++a;
 
-console.log(a == b);
+console.log(b);
